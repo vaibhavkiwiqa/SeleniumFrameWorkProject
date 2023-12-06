@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-05T11:16:59 IST" name="Default suite" finished-at="2023-12-05T11:17:00 IST" duration-ms="467">
+  <suite started-at="2023-12-06T11:36:15 IST" name="Default suite" finished-at="2023-12-06T11:36:15 IST" duration-ms="465">
     <groups>
     </groups>
-    <test started-at="2023-12-05T11:16:59 IST" name="Default test" finished-at="2023-12-05T11:17:00 IST" duration-ms="467">
-      <class name="module1.ValidateUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:module1.ValidateUser@2e3967ea]" started-at="2023-12-05T11:16:59 IST" name="setUp" finished-at="2023-12-05T11:17:00 IST" duration-ms="329" status="FAIL">
+    <test started-at="2023-12-06T11:36:15 IST" name="Default test" finished-at="2023-12-06T11:36:15 IST" duration-ms="465">
+      <class name="module1.Extractlinks">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:module1.Extractlinks@2e3967ea]" started-at="2023-12-06T11:36:15 IST" name="setUp" finished-at="2023-12-06T11:36:15 IST" duration-ms="318" status="FAIL">
           <exception class="org.openqa.selenium.remote.NoSuchDriverException">
             <message>
               <![CDATA[Unable to obtain: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}, error Unable to obtain Selenium Manager Binary
@@ -27,7 +27,7 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at basePackage.BaseInit.startUP(BaseInit.java:30)
-at module1.ValidateUser.setUp(ValidateUser.java:15)
+at module1.Extractlinks.setUp(Extractlinks.java:18)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,7 +80,7 @@ at org.openqa.selenium.manager.SeleniumManager.getBinary(SeleniumManager.java:18
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidateUser()[pri:0, instance:module1.ValidateUser@2e3967ea]" started-at="2023-12-05T11:17:00 IST" name="testValidateUser" finished-at="2023-12-05T11:17:00 IST" duration-ms="1" status="SKIP">
+        <test-method signature="testExtractlinks()[pri:0, instance:module1.Extractlinks@2e3967ea]" started-at="2023-12-06T11:36:15 IST" name="testExtractlinks" finished-at="2023-12-06T11:36:15 IST" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.remote.NoSuchDriverException">
             <message>
               <![CDATA[Unable to obtain: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}, error Unable to obtain Selenium Manager Binary
@@ -100,7 +100,7 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at basePackage.BaseInit.startUP(BaseInit.java:30)
-at module1.ValidateUser.setUp(ValidateUser.java:15)
+at module1.Extractlinks.setUp(Extractlinks.java:18)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -152,8 +152,8 @@ at org.openqa.selenium.manager.SeleniumManager.getBinary(SeleniumManager.java:18
           </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidateUser -->
-      </class> <!-- module1.ValidateUser -->
+        </test-method> <!-- testExtractlinks -->
+      </class> <!-- module1.Extractlinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
