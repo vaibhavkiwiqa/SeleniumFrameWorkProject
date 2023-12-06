@@ -29,14 +29,15 @@ public class Extractlinks extends BaseInit {
 		
 		for(int counter=0;counter<list.size();counter++) {
 			
-			
 			list.get(counter).click();
 			logs.info(driver.getTitle()+">>" +driver.getCurrentUrl());
 			driver.navigate().back();
+			Thread.sleep(1000);
             main=driver.findElement(By.xpath("//*[@id=\"right_sidebar\"]/div[2]/div[2]"));
-		    list=driver.findElements(By.tagName("a"));
+		    list=main.findElements(By.tagName("a"));
 		}
 		
 	}
-
 }
+
+
