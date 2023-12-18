@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-06T17:50:46 IST" name="Default suite" finished-at="2023-12-06T17:50:47 IST" duration-ms="604">
+  <suite started-at="2023-12-07T11:47:55 IST" name="Default suite" finished-at="2023-12-07T11:47:55 IST" duration-ms="386">
     <groups>
     </groups>
-    <test started-at="2023-12-06T17:50:46 IST" name="Default test" finished-at="2023-12-06T17:50:47 IST" duration-ms="604">
-      <class name="module2.SearchProduct">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:module2.SearchProduct@2e3967ea]" started-at="2023-12-06T17:50:46 IST" name="setUp" finished-at="2023-12-06T17:50:47 IST" duration-ms="478" status="FAIL">
+    <test started-at="2023-12-07T11:47:55 IST" name="Default test" finished-at="2023-12-07T11:47:55 IST" duration-ms="386">
+      <class name="module2.Payment">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:module2.Payment@2e3967ea]" started-at="2023-12-07T11:47:55 IST" name="setUp" finished-at="2023-12-07T11:47:55 IST" duration-ms="298" status="FAIL">
           <exception class="org.openqa.selenium.remote.NoSuchDriverException">
             <message>
               <![CDATA[Unable to obtain: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}, error Unable to obtain Selenium Manager Binary
@@ -27,7 +27,7 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at basePackage.BaseInit.startUP(BaseInit.java:30)
-at module2.SearchProduct.setUp(SearchProduct.java:14)
+at module2.Payment.setUp(Payment.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,7 +80,7 @@ at org.openqa.selenium.manager.SeleniumManager.getBinary(SeleniumManager.java:18
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearchProduct()[pri:0, instance:module2.SearchProduct@2e3967ea]" started-at="2023-12-06T17:50:47 IST" name="testSearchProduct" finished-at="2023-12-06T17:50:47 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testPayment()[pri:0, instance:module2.Payment@2e3967ea]" started-at="2023-12-07T11:47:55 IST" name="testPayment" finished-at="2023-12-07T11:47:55 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.remote.NoSuchDriverException">
             <message>
               <![CDATA[Unable to obtain: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}, error Unable to obtain Selenium Manager Binary
@@ -100,7 +100,7 @@ at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
 at basePackage.BaseInit.startUP(BaseInit.java:30)
-at module2.SearchProduct.setUp(SearchProduct.java:14)
+at module2.Payment.setUp(Payment.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -152,8 +152,8 @@ at org.openqa.selenium.manager.SeleniumManager.getBinary(SeleniumManager.java:18
           </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchProduct -->
-      </class> <!-- module2.SearchProduct -->
+        </test-method> <!-- testPayment -->
+      </class> <!-- module2.Payment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
